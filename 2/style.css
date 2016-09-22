@@ -1,0 +1,20 @@
+span{
+	text-decoration: underline;
+}
+
+.left{
+	border-left: 5px dashed blue;
+}
+
+ol,a {
+	font-size: 19px;
+	color:red;
+}
+a:hover{
+	text-decoration: none;
+}
+
+.bottom{
+	text-align: center;
+	border-bottom: 2px dashed black;
+}
