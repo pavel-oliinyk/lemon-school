@@ -18,3 +18,7 @@ a:hover{
 	text-align: center;
 	border-bottom: 2px dashed black;
 }
+
+img{
+	width: 300px;
+}
