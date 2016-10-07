@@ -1,0 +1,160 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h1,h2{
+	text-align: center;
+	padding:10px 0;
+}
+ul{
+	list-style-type: none;
+}
+
+.wrapper{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-left: 2px solid cyan;
+	border-right:2px solid cyan;
+	background-color: white;
+	}
+header{
+	background-color:  #0ff;
+}
+
+body{
+	background-color: #white;
+}
+img{
+	height: 150px;
+	width: 150px;
+}
+.logo{
+	display: inline-block;
+	text-decoration: none;
+	color: #000;
+	padding-left:20px;
+	text-shadow: 3px 3px 3px #c0c0c0;
+}
+.header-top a{
+	float: left;
+}
+a{
+	color:white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+}
+.logo span{
+	display:block;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-left: 11px;
+	font-weight: bold;
+	position: relative;
+}
+
+.header-nav {
+	list-style-type: none;
+	font-size: 100%;
+	width: 100%;
+	padding-left: 300px;
+	padding-top: 130px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid red;
+	position: relative;
+
+}
+.header-nav li{
+	display: inline-block;
+	width: 20%;
+	font-size: 100%;
+	text-align: center;
+	position: relative;
+}
+.sub-nav{
+	position: absolute;
+	width: 100%;
+	top: 100%;
+	transition: all 1s ease-out 0.5s;
+	opacity: 0;
+	pointer-events: none;
+	text-shadow: 1px 1px 2px #0ff;
+}
+.sub-nav li{
+	display: block;
+	width: inherit;
+
+
+}
+.sub-nav a{
+	width: inherit;
+}
+.sub-nav li a:hover{
+	background-color: white;
+	color: black;
+}
+.header-nav a{
+	padding-top: 10px;
+	padding-right: 20px;
+	display: inline-block;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: black;
+	color: white;
+	width: 150px;
+	box-shadow: 0 10px 10px 0 rgba(0,0,0,0.18);
+
+}
+.header-nav a:hover{
+	background-color: cyan;
+	color:black; 
+}
+li:hover .sub-nav{
+	opacity: 1;
+	pointer-events: all;
+}
+.clear{
+	clear: both;
+}
+
+.content{
+	font-size: 1.2em;
+	padding: 0px 45px;
+	line-height: 27px;
+	text-shadow: 3px 3px 3px #c0c0c0;
+}
+
+
+footer{
+	background-color: black;
+	height: 80px;
+}
+
+.footer-nav{
+	position: relative;
+	float: right;
+	right: 50%;
+}
+.footer-nav-main {
+	position: relative;
+	float: left;
+	left: 50%;
+	text-align: center;
+}
+
+.footer-nav-main li{
+	float: left;
+	padding: 20px 10px 0 10px;
+}
+
+.footer-nav-main a{
+	display: inline-block;
+	padding-bottom: 2px;
+}
+
+.footer-nav-main a:hover{
+	border-bottom: 1px dashed white;
+}
