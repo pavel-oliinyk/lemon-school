@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>doc</title>
+	<style>
+		ul{
+			list-style-type: none;
+		}
+		
+		a{
+			text-decoration: none;
+			position: absolute;
+
+		}
+		li a::before{
+			content: '';
+			display:block;
+			height: 2px;
+			width: 50%;
+			left:0%;
+			position: absolute;
+			background-color: black;
+			bottom: 0;
+			transition: all 1s;
+		}		
+		li a:hover::before{
+			width: 100%;
+		}
+		
+	</style>
+</head>
+<body>
+	<ul>
+		<li>★<a href="#">Я простая ссылка</a></li>
+		<li>★<a href="#">А я ссылка с ховером</a>
+			<ul>
+				<li>❤<a href="#">И еще одна ссылка уже во внуреннем списке</a></li>
+				<li>❤<a href="#">И еще одна ссылка уже во внуреннем списке</a></li>
+				<li>❤<a href="#">И еще одна ссылка уже во внуреннем списке</a>
+					<ul>
+						<li>☀<a href="#">Последняя ссылка в списке 3-го уровня</a></li>
+					</ul>
+				</li>
+				<li>❤<a href="#">Вернемся назад</a></li>
+			</ul>
+		<li>★<a href="#">И еще назад</a>	
+		</li>
+		
+
+		<li></li>
+		
+	</ul>
+
+</body>
+</html>
