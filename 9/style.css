@@ -1,0 +1,168 @@
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin: 0;
+}
+.main{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+
+	
+}
+.first{
+	width: 200px;
+	height: 50px;
+	border: 2px solid black;
+	position: relative;
+	
+	margin-bottom: 10px;
+}
+.first::before{
+	position: absolute;
+	width: 30%;
+	top: 0;	
+	background-color: red;
+	content: "";
+	height: 100%;
+}
+.first::after{
+	position: absolute;
+	width: 6px;
+	top: 30%;	
+	right: -7px;
+	background-color: black;
+	content: "";
+	height: 35%;
+}
+
+.second{
+	width: 200px;
+	height: 50px;
+	border: 2px solid black;
+	position: relative;
+	
+	margin-bottom:10px;
+}
+.second::before{
+	position: absolute;
+	width: 75%;
+	top: 0;	
+	background-color: yellow;
+	content: "";
+	height: 100%;
+}
+.second::after{
+	position: absolute;
+	width: 6px;
+	top: 30%;	
+	right: -7px;
+	background-color: black;
+	content: "";
+	height: 35%;
+}
+
+.third{
+	width: 200px;
+	height: 50px;
+	border: 2px solid black;
+	position: relative;
+	
+	margin-bottom:10px;
+}
+.third::before{
+	position: absolute;
+	width: 100%;
+	top: 0;	
+	background-color: green;
+	content: "";
+	height: 100%;
+}
+.third::after{
+	position: absolute;
+	width: 6px;
+	top: 30%;	
+	right: -7px;
+	background-color: black;
+	content: "";
+	height: 35%;
+}
+.text{
+	width: 350px;
+	height: 50px;
+	background-color: grey;
+	position: relative;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+span{
+	padding-top: 15px;
+	padding-left: 3px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	color: white;
+}
+
+.text::before{
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 46px;
+	background-color: grey;
+	left: -2px;
+	top: 2px;
+}
+.text::after{
+	content: "";
+	position: absolute;
+	width: 2px;
+	height: 46px;
+	background-color: grey;
+	right: -2px;
+	top: 2px;
+}
+
+.bottom{
+	height: 50px;
+	width: 200px;
+	border-radius: 100px;
+	border: 1px solid white;
+	background-color: white;
+	box-shadow: inset 0 0 45px #38c3df; 
+	position: relative;
+	
+}
+
+.bottom p{
+	display: inline-block;
+	padding-left: 60px;
+	line-height: 50px;
+	font-size: 25px;
+}
+.bottom::after{
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	height: 50px;
+	width: 200px; 
+	border: 2px solid #38c3df;
+	content: "";
+	border-radius: 100px;
+	
+	box-shadow:inset 0 0 2px #38c3df;
+}
+.bottom::before{
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	height: 50px;
+	width: 200px; 
+	border: 2px solid #38c3df;
+	content:"";
+	border-radius: 100px;
+	box-shadow: 0 0 10px #38c3df  ;
+	
+}
