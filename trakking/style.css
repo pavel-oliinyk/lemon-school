@@ -1,0 +1,398 @@
+
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin: 0;
+}
+.header-main a:hover{
+	opacity: 0.8;
+}
+.header{
+	background: url(images/header-bg.jpg) center no-repeat;
+	background-size: cover;
+	height:100vh;
+	background-color: rgba(0,0,0, .5);
+	color: white;
+	position: relative;
+}
+
+.header-main{
+	width: 1152px;
+	margin:0 auto;
+}
+.boot{
+	display: inline-block;
+	margin-top: 38px;
+	float: left;
+}
+
+.header-nav{
+	float: right;
+	margin-top: 52px;
+}
+.header-nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	list-style-type: none;
+	padding-right: 64px;
+	font-family: 'Quicksand Bold', arial;
+	font-size: 18px;	
+}
+
+.header-nav a:nth-child(2){
+	padding-right: 64px;
+}
+.header-top{
+	display: inline-block;
+	margin-top: 286px;
+	width: 100%;
+
+}
+.header-content{
+	display: inline-block;
+	text-align: center;
+	font-family: 'Quicksand Bold', arial;
+	color: white;
+	position: relative;
+	
+}
+.header-content  p{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .5);
+	bottom: 100%;
+	left: 0px;
+	z-index: 1;
+	opacity: 0;
+	transition: all .7s;
+}
+
+.header-content:hover p{
+	opacity: 3;
+	bottom: 0;
+}
+
+
+.header-content h1{
+	display: inline-block;
+	font-size: 60px;
+	letter-spacing: 10px;
+	z-index: 0;
+
+}
+.header-content p{
+	font-size: 25px;
+	display: inline-block;
+	position: relative;
+	padding-left: 160px;
+	padding-right: 160px;
+	font-family: "Quicksand Book";
+	letter-spacing: 4px;
+	margin-top: 19px;
+}
+
+.header-content p::after{
+	background-image: url(images/header-arrow.png);
+	bottom:-260px;
+	left: 48%;
+	content: " ";
+	display: block;
+	width: 35px;
+	height: 22px;
+	position: absolute;
+}
+.section-top-width{
+	background-color: #f5f6f7;
+	width: 100%;
+	margin: 0 auto;
+}
+.section-top{
+	background-color: white;
+	width: 100%;
+	height: 1310px;
+
+}
+.section-top-inner{
+	height: 146px;
+	width: 1152px;
+	margin:0 auto;
+	background-color: #f5f6f7;
+}
+.left-bird{
+	margin-top:60px;
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+}
+.middle-bird{
+	margin-top:60px;
+	display: inline-block;
+	float: left;
+	margin-right: 40px;
+}
+.right-bird{
+	margin-top:60px;
+	display: inline-block;
+	float: left;
+}
+
+label{
+	position: relative;
+}
+input {
+	display: none;
+}
+
+label:before{
+	content:"";
+	display: inline-block;
+	height: 21px;
+	width: 21px;
+	border: 2px solid #aa9b77;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+input:checked + label:after{
+	content:"";
+	position: absolute;
+	top: 4px;
+	left: 6px;
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	background:url(images/bird.png)no-repeat;
+	vertical-align: middle;
+	background-size: 100%;
+}
+
+.button a{
+	padding: 21px 30px;
+	background-color: #aa9b77;
+	float: right;
+	margin-top: 44px;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: "Times New Roman",serif;
+	color: #fff;
+	border-radius: 5px;
+	border:1px solid #a39677 ;
+}
+
+.content{
+	width: 1152px;
+	margin:0 auto;
+	height: 1300px;
+}
+.content-men{
+	max-width: 1152px;
+	overflow:hidden;
+	position: relative;
+	padding-top: 110px;
+	padding-left: 32px;
+	padding-right: 32px;
+	outline: 2px solid #f00;
+	background-color: yellow;
+}
+.content-men:before{
+	content: "";
+	position: absolute;
+	width: 94.3576%;
+	left: 32px;
+	height: 2px;
+	background-color: #ccc;
+	display: block;
+	top: 95px;
+}
+.content-men-title {
+	font-size: 20px;
+	text-transform: uppercase;
+	display: block;
+	padding-right: 50px;
+	position: absolute;
+	top: 83px;
+	left: 32px;
+	background-color: #fff;
+}
+
+.header-shirt{
+	width: 100%;
+	height: 37px;
+	position: relative;
+	display: inline-block;
+}
+.men-shirt{
+	width: 100%;
+	height: 366px;
+	background-color: #f5f6f7;
+	border: 6px solid  transparent;
+	transition: all .3s;
+}
+.men-shirt:hover{
+		border: 6px solid #aa9b77;
+}
+.men-shirt .first-lap{
+	padding-top: 4px;
+}
+.products-row{
+	list-style-type: none;
+	margin-right: -32px;
+	margin-left: -32px;
+	font-size: 0;
+	
+}
+.product-wrapper{
+	display: inline-block;
+	margin-right: 32px;
+	margin-left: 32px;
+	width: 320px;
+	font-size: 16px;
+	text-align: center;	
+}
+.product-wrapper:last-child{
+	margin-right: 0;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.menu{
+	display: inline-block;
+	margin: 25px 0 21px 0;
+	position: absolute;
+	top: -16px;
+	left: 10px;
+	max-width: 60px;
+	float: left;
+	
+}
+
+.menu a{
+	color: #424242;
+	display:inline-block;
+	width: 40px;
+	transition: all 0.3s;
+}
+
+.menu a:hover{
+	background-color: #666;
+	padding: 3px 0 3px 5px;
+}
+.menu-list{
+	position: relative;
+	display: inline-block;
+}
+.drop{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	opacity: 0;
+	top: -9999em;
+}
+
+.menu-list:hover .drop{
+	opacity: 1;
+	top:100%;
+}
+
+.t-shirt{
+	padding-top: 50px;
+}
+.t-shirt img{
+	height: 189px;
+	width: auto;
+
+}
+
+.first-lap{
+	padding-left: 180px;
+	margin-top: 4px;
+}
+
+.bottom-t-shirt{
+	padding: 30px 20px 20px 20px;
+}
+.product-description{
+	display: inline-block;
+	width: auto;
+	vertical-align: middle;
+	float: left;
+	color: #aa9b77;
+}
+.product-description span{
+	display: inline-block;
+	float: left;
+}
+.name-t-shirt{
+	margin-right:145px;
+}
+.name-t-shirt2{
+	margin-right:82px;
+}
+.name-t-shirt3{
+	margin-right:113px;
+}
+
+.price{
+	color: #8a8a8a;
+}
+.slick-slide img {
+	display: inline-block;
+}
+#nav-arrow1{
+	background-color: red;
+	left: 96.5%;
+	width: 13px;
+	height: 14px;
+	position: relative;	
+	margin-bottom: 16px;
+}
+
+#nav-arrow2{
+	background-color: red;
+	left: 97%;
+	width: 13px;
+	height: 14px;
+	position: relative;
+	margin-bottom: 16px;
+	margin-top: 45px;
+}
+.content-women{
+	max-width: 1152px;
+	overflow:hidden;
+	position: relative;
+	padding-top: 110px;
+	padding-left: 32px;
+	padding-right: 32px;
+	outline: 2px solid #f00;
+	background-color: grey;
+	height: 606px;
+}
+.content-men-title2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	display: block;
+	padding-left: 50px;
+	position: absolute;
+	top: 83px;
+	right:32px;
+	background-color: #fff;
+	
+}
+.content-women:before{
+	content: "";
+	position: absolute;
+	width: 94.3576%;
+	left: 32px;
+	height: 2px;
+	background-color: #ccc;
+	display: block;
+	top: 95px;
+}
