@@ -1,0 +1,18 @@
+@import "fonts.css";
+
+h1{
+	font-weight: normal;
+}
+
+.thin{
+	font-family: 'bebasthin';
+}
+.light{
+	font-family: 'bebaslight';
+}
+.book{
+	font-family: 'bebasbook';
+}
+.regular{
+	font-family: 'bebasregular';
+}

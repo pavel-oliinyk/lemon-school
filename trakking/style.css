@@ -1,3 +1,4 @@
+@import "css/fonts.css";
 
 *{
 	box-sizing: border-box;
@@ -45,7 +46,7 @@
 }
 .header-top{
 	display: inline-block;
-	margin-top: 286px;
+	margin-top: 8px;
 	width: 100%;
 
 }
@@ -55,6 +56,8 @@
 	font-family: 'Quicksand Bold', arial;
 	color: white;
 	position: relative;
+	overflow:hidden;
+	margin-top: 110px;
 	
 }
 .header-content  p{
@@ -78,8 +81,9 @@
 .header-content h1{
 	display: inline-block;
 	font-size: 60px;
-	letter-spacing: 10px;
+	letter-spacing: 3px;
 	z-index: 0;
+	font-family: 'quicksandbold';
 
 }
 .header-content p{
@@ -88,7 +92,7 @@
 	position: relative;
 	padding-left: 160px;
 	padding-right: 160px;
-	font-family: "Quicksand Book";
+	font-family: 'quicksandregular';
 	letter-spacing: 4px;
 	margin-top: 19px;
 }
@@ -102,6 +106,7 @@
 	width: 35px;
 	height: 22px;
 	position: absolute;
+	overflow:hidden;
 }
 .section-top-width{
 	background-color: #f5f6f7;
@@ -179,12 +184,20 @@ input:checked + label:after{
 	color: #fff;
 	border-radius: 5px;
 	border:1px solid #a39677 ;
+	transition: all 0.4s;
+	border: 2px solid transparent;
+}
+.button a:hover{
+	border: 2px solid #aa9b77; 
+	box-shadow: inset 0 0 20px;
+	color: #aa9b77;
+	background-color: #fff;
 }
 
 .content{
 	width: 1152px;
 	margin:0 auto;
-	height: 1300px;
+	height: 1229px;
 }
 .content-men{
 	max-width: 1152px;
@@ -193,8 +206,7 @@ input:checked + label:after{
 	padding-top: 110px;
 	padding-left: 32px;
 	padding-right: 32px;
-	outline: 2px solid #f00;
-	background-color: yellow;
+	background-color: white;
 }
 .content-men:before{
 	content: "";
@@ -277,7 +289,7 @@ a{
 .menu a{
 	color: #424242;
 	display:inline-block;
-	width: 40px;
+	width: 60px;
 	transition: all 0.3s;
 }
 
@@ -331,13 +343,13 @@ a{
 	float: left;
 }
 .name-t-shirt{
-	margin-right:145px;
+	margin-right:155px;
 }
 .name-t-shirt2{
-	margin-right:82px;
+	margin-right:90px;
 }
 .name-t-shirt3{
-	margin-right:113px;
+	margin-right:136px;
 }
 
 .price{
@@ -346,17 +358,18 @@ a{
 .slick-slide img {
 	display: inline-block;
 }
-#nav-arrow1{
-	background-color: red;
+.nav-arrow1{
+	background-color: white;
 	left: 96.5%;
 	width: 13px;
 	height: 14px;
 	position: relative;	
 	margin-bottom: 16px;
+
 }
 
-#nav-arrow2{
-	background-color: red;
+.nav-arrow2{
+	background-color: white;
 	left: 97%;
 	width: 13px;
 	height: 14px;
@@ -371,9 +384,8 @@ a{
 	padding-top: 110px;
 	padding-left: 32px;
 	padding-right: 32px;
-	outline: 2px solid #f00;
-	background-color: grey;
-	height: 606px;
+	background-color: white;
+	height: 673px;
 }
 .content-men-title2 {
 	font-size: 20px;
@@ -395,4 +407,155 @@ a{
 	background-color: #ccc;
 	display: block;
 	top: 95px;
+}
+
+
+.women-one{
+	background-color: white;
+	left: 0;
+	width: 13px;
+	height: 14px;
+	position: relative;	
+	margin-bottom: 16px;
+	margin-top: 50px;
+	margin-bottom: 16px;
+
+
+}
+.women-two{
+	background-color: white;
+	left: 0.6%;
+	width: 13px;
+	height: 14px;
+	position: relative;
+	margin-bottom: 16px;
+}
+
+.content-about{
+	width: 1152px;
+	margin:0 auto;
+	height: 400px;
+	background-color: #aa9b77;
+}
+
+.content-about-main{
+	margin:0 auto;
+	height: 400px;
+	background-color: #aa9b77;
+	width: 100%;
+}
+
+.top-word{
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 0 11px 0 11px;
+	color: #837659;
+	position: absolute;
+	left: 41%;
+	top: -15px;
+	background-color: #aa9b77;
+
+}
+.inner-word{
+	width: 714px;
+	height: 254px;
+	border: 3px solid #918363;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 70px;
+
+}
+.inner-word p{
+	padding: 85px 117px 0 117px;
+font-family: 'quicksandbold';
+	text-align: center;
+	color: #424242;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.twitter-top{
+	width: 100%;
+	height: 73px;
+	background-color: #535253;
+}
+.twitter-inner{
+	height: 100%;
+	width: 1152px;
+	margin:0 auto;
+}
+.twitter-inner img{
+	display: inline-block;
+	padding: 30px 0 30px 0;
+
+}
+.twitter-sub{
+	position: absolute;
+	display: inline-block;
+	padding: 30px 0 30px 18px;
+	font-size: 16px;
+	font-family: 'quicksandbold';
+	color: white;
+}
+.bottom{
+	width: 100%;
+	height: 352px;
+	background-color: #424242;
+	color: #fff;
+}
+
+.bottom-main{
+	width:1152px;
+	height: 352px;
+	background-color: #424242;
+	margin: 0 auto;
+}
+.left-bottom{
+	font-family: 'quicksandbold';
+	width: 320px;
+	float: left;
+	margin-top: 107px;
+}
+.left-bottom h1{
+	font-size: 20px;
+}
+.left-bottom p{
+	font-size: 10px;
+	line-height: 20px;
+	padding-top: 20px;
+	height: 20px;
+}
+.right-bottom {
+	float: right;
+	margin-top: 155px;
+	font-family: 'quicksandbold';
+}
+.right-bottom a:after{
+	content: "";
+	display: inline-block;
+	width: 2px;
+	height: 13px;
+	background-color: #625d51;
+	margin-left: 5px;
+	vertical-align: middle;
+}
+.right-bottom a{
+	font-size: 14px;
+	text-transform: uppercase;
+	transition: all 0.3s;
+	color: #fff;
+
+}
+.right-bottom a:hover{
+	opacity: 0.7;
+	padding-bottom: 2px;
+}
+.right-bottom a:last-child:after{
+	display: none;
+}
+.right-bottom h2{
+	margin-top: 15px;
+	font-size: 18px;
+	float: right;
 }

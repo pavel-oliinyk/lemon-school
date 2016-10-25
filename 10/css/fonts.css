@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: 'bebasbold';
+    src: url('../fonts/bebasneuebold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebasbook';
+    src: url('../fonts/bebasneuebook-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebaslight';
+    src: url('../fonts/bebasneuelight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebasregular';
+    src: url('../fonts/bebasneueregular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'bebasthin';
+    src: url('../fonts/bebasneuethin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
