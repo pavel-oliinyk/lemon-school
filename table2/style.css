@@ -1,0 +1,78 @@
+@import "css/fonts.css";
+
+
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+table{
+	width: 1150px;
+	margin: 20px auto;
+	border-collapse: collapse;
+	box-shadow: 0px 62px 46px -35px rgba(0, 0, 0, .1);
+	background-color: white;
+}
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+th{
+	text-align: left;
+	padding: 25px 0 25px 20px;
+	font-family: 'montserratregular';
+	font-size: 13px;
+	text-transform: uppercase;
+	 font-weight: normal;
+	 color: red;
+
+
+
+}
+
+
+
+a{
+	float: right;
+	border-left: 1px solid #f1f1f1;
+	padding: 20px;
+	color: red;
+	position: relative;
+}
+a:hover:after{
+	border-bottom: 2px solid #dc1f26;
+		padding-bottom: 3px;
+		width: 128px;
+		position: absolute;
+		content: "";
+		display: block;
+		height: 2px;
+		left: 20px;
+		top: 37px;
+}
+
+.left-side{
+	padding: 20px;
+	width: 355px;
+}
+
+tr:nth-child(2n+2){	
+	background-color: #fbfbfb;
+}
+tbody tr:hover{
+	background-color: #d4d4d4;
+}
+td:hover{
+	color: red;
+}
+td{
+	font-family: 'montserratlight';
+	font-size: 14px;
+ 
+}
+body{
+	background-image: linear-gradient(90deg, #fefefe,#e5e5e5);
+}
