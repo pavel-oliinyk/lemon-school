@@ -1,0 +1,271 @@
+@import "css/fonts.css";
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+ul{
+	list-style:none;
+	padding:0;
+	margin: 0;
+
+}
+header{
+	background-image: url(images/header-main-bg.jpg);
+	background-size: cover;
+	height: 1000px;
+	background-position: center;
+	overflow:hidden;
+
+}
+.header-top{
+	width: 100%;
+	margin:0 auto;
+	height: 100px;
+	background-color: yellow;
+	position: relative;
+}
+.header-main{
+	width: 1170px;
+	margin:0 auto;
+	height: 1000px;
+}
+
+.menu-header a{
+		display: inline-block;
+		transition: all 0.5s;
+		float: left;
+		padding-right: 32px;
+		font-size: 16px;
+		font-family: 'latoregular';
+}
+.menu-header a:hover{
+	opacity: 0.5;
+
+}
+.menu-header{
+	position: relative;
+}
+.drop{
+	position: absolute;
+	top: -9999em;
+	opacity: 0;
+	left: 0;
+	transition: opacity 0.3s;
+
+	
+}
+.div-nav{
+	width: 302px;
+	display: inline-block;
+	float: left;
+	padding-top: 50px;
+}
+.div-nav a:hover{
+	color:#b5b5b6; 
+}
+.menu-list:hover .drop{
+	opacity: 1;
+	top: 20px;
+	padding: 1px 3px 0 0;
+}
+
+
+.right-nav{
+	width: 300px;
+	margin-top: 40px;
+	float: right;
+}
+
+.right-nav a {
+	display: inline-block;
+	color: white;
+	font-family: 'latoregular';
+	font-weight: normal;
+    font-style: normal;
+
+}
+.right-nav li{
+	vertical-align: middle;
+	display: inline-block;
+}
+.right-nav .contacts{
+	color: #606164;
+}
+.right-nav span{
+	display: inline-block;
+	font-family: 'latoregular';
+
+}
+.right-nav a{
+	white-space: nowrap;
+	padding-right: 30px;
+	transition: all 0.3s;
+	font-size: 16px;
+	font-family: 'latoregular';
+}
+.right-nav a:hover{
+	color: #b5b5b6;
+}
+
+.sprite{
+	background-image: url(images/apple.png);
+	vertical-align: middle;
+	display: inline-block;
+	width: 15px;
+	height: 20px;
+	margin-right: 13px;	
+}
+.last-child{
+	padding: 10px 16px 12px 16px;
+	background-color: blue;
+	border-radius: 25px;
+}
+
+.middle-text{
+	display: inline-block;
+	vertical-align: middle;
+	margin:0 auto;
+	color: #26272d;
+	padding-top: 50px;
+	font-family: 'Times New Roman', serif;
+	width: 550px;
+	text-align: center;
+}
+.middle-text span{
+	color: #26272d;
+	font-weight: bold;
+}
+
+.middle-content-head{
+	width: 770px;	
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	font-family: 'latoregular';
+	font-size: 20px;
+	padding-top: 90px;
+	margin-bottom: 60px;
+}
+
+.middle-content-head h1{
+	font-family: 'varela_roundregular';
+	padding-bottom: 40px;
+	color: #26272d;
+	letter-spacing: 8px;
+}
+.middle-content-head p{
+	color: #a8abaf;
+}
+
+.play-botton{
+	text-align: center;
+	display:block;
+	margin-bottom: 53px;
+
+}
+.play-botton-in {
+	position: relative;
+	font-family: 'latoregular';
+	font-size: 16px;
+	color: #6c6e71;
+	padding: 18px 90px;
+	border: 1px solid #d9dcde;
+	border-radius: 40px;
+	width: 210px;
+	transition: all 0.4s;
+
+
+}
+.play-botton-in:hover{
+	background-color: #ed0a0a;
+	color: white;
+
+}
+.play-botton-in::before{
+	content: "";
+	display: block;
+	background: url(images/play-icon.png)no-repeat;
+	position: absolute;
+	top: 25px;
+	left: 61px;
+	height: 10px;
+	width: 10px;
+	margin-right: 10px;
+}
+.top-phone{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+section{
+	width: 100%;
+	background: grey;
+	margin: 0 auto;
+}
+
+.section-one{
+	width: 1170px;
+	margin:0 auto;
+	background: red;
+	overflow:hidden;
+}
+.left-section{
+	width: 50%;
+	padding-top: 120px;
+	padding-left: 40px;
+	padding-right: 145px;
+	float: left;
+
+
+}
+.left-section p:not(.real-time){
+	font-family:'latolight';
+	padding-bottom: 45px;
+	color: #8c8f94;
+}
+
+
+.real-time{
+	font-size: 26px;
+	padding: 45px 0;
+	color: #26272d;
+}
+
+.right-section{
+	width: 50%;
+	float: right;
+	padding-top: 120px;
+	
+}
+.right-section p:not(.real-time){
+	padding-bottom: 45px;
+	padding-right: 175px;
+	color: #8c8f94;
+
+}
+.section-two{
+	width: 1170px;
+	background-color
+	margin: 0 auto;
+	
+}
+.left-phone{
+	width: 50%;
+}
+
+.left-phone img{
+	margin-left: -200px;
+}
+
+
+
+.right-content-section-two{
+	width: 50%;
+}
