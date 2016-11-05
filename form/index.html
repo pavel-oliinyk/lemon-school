@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<form>
+		<h1>Fill the form</h1>
+		<div class="your-name">
+			<label>
+				<p>Your Name</p>
+				<input type="text" name="username" placeholder="John" class="input">
+			</label>
+		</div>
+		<div class="your-name">
+			<label>
+				<p>Your Surname</p>
+				<input type="text" name="secondname" placeholder="Doe"  class="input">
+			</label>
+		</div>
+		<div class="your-name">
+			<label>
+				<p>Your Email</p>
+				<input type="text" name="secondname" placeholder="mail@example.com"  class="input">
+			</label>
+		</div>
+		<div class="your-name">
+			<label>
+				<p>Your Password</p>
+				<input type="password" name="password" placeholder="Password"  class="input">
+			</label>
+		</div>
+		<div class="your-name text-area">
+			<label>
+				<p>Few words about you</p>
+				<textarea type="text" name="comments" placeholder="Im awesome!"></textarea> 
+			</label>
+		</div>
+		<div class="select-zone">
+		<div class="select-border">
+			<label>
+				<p>Your country</p>
+				<select name="select" >
+					<option value="1">Australia</option>
+					<option value="1">USA</option>
+					<option value="1">Ukraine</option>
+				</select> 
+			</label>
+		</div>
+		</div>
+		<div class="radio-box">
+			<div class="block-radio">
+			<p>Your gender</p>
+			    <label class="radio-title">
+				<input type="radio" name="gender" value="male" class="input-radio" checked>Male
+				</label>
+				<label class="radio-title">
+				<input type="radio" name="gender" value="male" class="input-radio" >Female
+				</label>
+				<label class="radio-title">
+				<input type="radio" name="gender" value="male" class="input-radio" >Other
+				</label>
+			</div>
+		
+		</div>
+		<div class="checkbox">
+			<label class="checkbox-label">
+			
+				<input type="checkbox" name="checkbox" class="checkbox-input">
+					<p>Subscribe to newsseller </p>
+			</label>
+		</div>
+		<div class="button-main">
+			<input type="submit" value="Submit" name="Отправить" class="button">
+		</div>
+	</form>
+</body>
+</html>
