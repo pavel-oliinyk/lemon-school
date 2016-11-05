@@ -1,0 +1,11 @@
+1) input[checkbox]
+2) 
+3)li[id|="message"]
+4)li[id$="message-"]
+5)a[href$=".zip"]
+6)li[data-action|="_delete"]
+7)li[data-action="delete"]
+8)li:nth-child(2n+1)
+9)h3#widget-title >ul
+10)h3#widget-title ~ a
+11)ul[li^="a"]

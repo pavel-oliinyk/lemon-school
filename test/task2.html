@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			padding: 0;
+			margin: 0;
+			box-sizing: border-box;
+		}
+		table{
+			border:1px solid black;
+			width: 450px;
+			border-collapse: collapse;
+			margin: 10px auto;
+		}
+		th{
+			
+			background-color: black;
+			color: white;
+			padding: 5px;
+			font-weight: bold;
+			font-size: 20px;
+			
+		}
+		tr{
+			
+		}
+		td{
+			
+			padding: 3px;
+			border: 1px solid black;
+		}
+		.number{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<thead>
+			<tr>
+				<th>День</th>
+				<th>Действие</th>
+				<th>Дополнительно</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="number">1</td>
+				<td colspan="2">Начать учить таблицы</td>
+				
+			</tr>
+			<tr>
+				<td class="number">2</td>
+				<td rowspan="2" colspan="2">Выучить таблицы</td>
+			</tr>
+			<tr>
+				<td class="number">3</td>
+				
+			</tr>
+			<tr>
+				<td class="number">4</td>
+				<td>Понять, как это работает colspan</td>
+				<td>Да и rowspan тоже</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
